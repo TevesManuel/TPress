@@ -4,7 +4,7 @@ package TPress
 
 /*
 #cgo CFLAGS: -I./include/
-#cgo LDFLAGS: ./lib/libTPress.dll
+#cgo LDFLAGS: ./libTPress.dll
 #include <TPress.h>
 */
 import "C"
