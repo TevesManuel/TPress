@@ -1,2 +1,2 @@
-void TypeKey(char x);
+void TypeChar(char x);
 void TypeText(const char * text);
