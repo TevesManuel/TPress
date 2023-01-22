@@ -14,7 +14,7 @@ And for golang do this
 
 You can use the library writing this in your go file
 
-<code>
+``` Go
   package main
 
   import TPress "github.com/TevesManuel/TPress/golang"
@@ -22,4 +22,4 @@ You can use the library writing this in your go file
   func main() {
     TPress.TypeText("Hello world")
   }
-</code>
+  ```
