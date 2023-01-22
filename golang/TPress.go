@@ -1,7 +1,5 @@
 package TPress
 
-// // // #cgo LDFLAGS: -L./../lib/ -lTPress
-
 /*
 #cgo CFLAGS: -I./include/
 #cgo LDFLAGS: ./libTPress.dll
