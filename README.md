@@ -18,8 +18,10 @@ in your workspace you need download libTPress.dll file, this is very important.
 You can do this with this commands
 
 
-<code>wget https://github.com/TevesManuel/TPress/raw/master/lib/libTPress.dll</code>
+``` Bash
+wget https://github.com/TevesManuel/TPress/raw/master/lib/libTPress.dll
 
+```
 
 or
 
