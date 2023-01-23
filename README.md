@@ -3,7 +3,26 @@ TPress
 
 TPress was made for simulating keyboard input on Windows systems. This simulate keyboard input, is very low level. There are C++ and Go bindings provided.
 
-For C/C++ see examples
+An C/C++ example
+
+
+``` C
+
+#include <stdio.h>
+#include <TPress.h>
+
+int main()
+{
+    const char * text;
+    
+    printf("Escribe el texto a simular: ");
+    scanf("%[^\n]%*c", text);
+    TypeText(text);
+    return 0;
+}
+
+```
+
 
 And for golang do this
 
@@ -26,7 +45,10 @@ wget https://github.com/TevesManuel/TPress/raw/master/lib/libTPress.dll
 or
 
 
-<code>curl https://github.com/TevesManuel/TPress/raw/master/lib/libTPress.dll</code>
+``` Bash
+curl https://github.com/TevesManuel/TPress/raw/master/lib/libTPress.dll
+
+```
 
 
 Or simply download libTPress.dll file on https://github.com/TevesManuel/TPress/blob/master/lib/libTPress.dll
