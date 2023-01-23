@@ -1,5 +1,7 @@
-# TPress
-# library to emulate input keyboard maded in C, with bindings to C++ and Go
+TPress
+======
+
+TPress was made for simulating keyboard input on Windows systems. This simulate keyboard input, is very low level. There are C++ and Go bindings provided.
 
 For C/C++ see examples
 
